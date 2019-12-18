@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html lang="pl">
+<head>
+<title>Dodawanie etykiet</title>
+    <style>
+        body{
+         background-color:lightblue;
+        }
+        fieldset{
+            width: 500px;
+            margin: 100px auto;
+            background-color: lightgray;
+        }
+        input[id="s"] 
+        {
+            cursor: pointer;
+        }
+        legend{
+            font-size:25px;
+        }
+    </style>
+</head>;
+    
+<body>
+    <fieldset>
+        
+    <legend>INFORMACJE</legend>
+         <label>Imię:<br/> <input type="text" name="name"/></label>
+         <br/>
+         <label>Nazwisko:<br/> <input type="text" name="surname"/></label>
+         <br/>
+         <label>Wiek:<br/> <input type="text" name="age"/></label>
+         <br/>
+         <input id="male" name="gender" type="radio">
+         <label for="male">mężczyzna</label>
+         <input id=" female" name="gender" type="radio">
+         <label for="female">kobieta</label>
+         <br/><br/>
+         <label>Adres email: <br/><input type="text" name="email"/></label>
+         <br/>
+         <label> Numer telefonu: <br/><input type="text" name="phone"/></label>
+         <br/><br/>
+         <input id="s" type="submit" value="wyślij"/>
+        
+    </fieldset>
+</body>
+
+</html>
